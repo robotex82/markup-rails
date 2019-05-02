@@ -1,13 +1,14 @@
 PATH
   remote: ../rao/rao-view_helper
   specs:
-    rao-view_helper (0.0.19.pre)
+    rao-view_helper (0.0.23.pre)
+      rails (>= 4.2.0)
       rao
 
 PATH
   remote: .
   specs:
-    markup-rails (0.0.1)
+    markup-rails (0.0.2)
       kramdown
       rails
       rao-view_helper
